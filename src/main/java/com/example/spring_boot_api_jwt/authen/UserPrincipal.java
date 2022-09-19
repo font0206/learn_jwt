@@ -1,4 +1,4 @@
-package com.example.spring_boot_api_jwt_ad.authen;
+package com.example.spring_boot_api_jwt.authen;
 
 import lombok.Data;
 import lombok.Getter;

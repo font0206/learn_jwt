@@ -1,9 +1,10 @@
-package com.example.spring_boot_api_jwt_ad.filter;
+package com.example.spring_boot_api_jwt.filter;
 
-import com.example.spring_boot_api_jwt_ad.authen.UserPrincipal;
-import com.example.spring_boot_api_jwt_ad.entity.Token;
-import com.example.spring_boot_api_jwt_ad.service.TokenService;
-import com.example.spring_boot_api_jwt_ad.util.JwtUtil;
+import com.example.spring_boot_api_jwt.authen.UserPrincipal;
+import com.example.spring_boot_api_jwt.service.TokenService;
+import com.example.spring_boot_api_jwt.util.JwtUtil;
+import com.example.spring_boot_api_jwt.entity.Token;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;

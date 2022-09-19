@@ -1,6 +1,6 @@
-package com.example.spring_boot_api_jwt_ad.config;
+package com.example.spring_boot_api_jwt.config;
 
-import com.example.spring_boot_api_jwt_ad.filter.JwtRequestFilter;
+import com.example.spring_boot_api_jwt.filter.JwtRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

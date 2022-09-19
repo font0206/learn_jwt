@@ -1,6 +1,6 @@
-package com.example.spring_boot_api_jwt_ad.repository;
+package com.example.spring_boot_api_jwt.repository;
 
-import com.example.spring_boot_api_jwt_ad.entity.Token;
+import com.example.spring_boot_api_jwt.entity.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TokenRepository

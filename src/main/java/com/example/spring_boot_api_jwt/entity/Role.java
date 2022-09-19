@@ -1,4 +1,4 @@
-package com.example.spring_boot_api_jwt_ad.entity;
+package com.example.spring_boot_api_jwt.entity;
 
 import lombok.Getter;
 import lombok.Setter;

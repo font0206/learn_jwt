@@ -1,11 +1,12 @@
-package com.example.spring_boot_api_jwt_ad.controller;
+package com.example.spring_boot_api_jwt.controller;
 
-import com.example.spring_boot_api_jwt_ad.authen.UserPrincipal;
-import com.example.spring_boot_api_jwt_ad.entity.Token;
-import com.example.spring_boot_api_jwt_ad.entity.User;
-import com.example.spring_boot_api_jwt_ad.service.TokenService;
-import com.example.spring_boot_api_jwt_ad.service.UserService;
-import com.example.spring_boot_api_jwt_ad.util.JwtUtil;
+import com.example.spring_boot_api_jwt.authen.UserPrincipal;
+import com.example.spring_boot_api_jwt.entity.Token;
+import com.example.spring_boot_api_jwt.service.TokenService;
+import com.example.spring_boot_api_jwt.service.UserService;
+import com.example.spring_boot_api_jwt.util.JwtUtil;
+import com.example.spring_boot_api_jwt.entity.User;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

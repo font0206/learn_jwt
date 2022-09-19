@@ -1,6 +1,6 @@
-package com.example.spring_boot_api_jwt_ad.util;
+package com.example.spring_boot_api_jwt.util;
 
-import com.example.spring_boot_api_jwt_ad.authen.UserPrincipal;
+import com.example.spring_boot_api_jwt.authen.UserPrincipal;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jose.*;
 import com.nimbusds.jose.crypto.MACSigner;
@@ -9,6 +9,7 @@ import com.nimbusds.jwt.JWTClaimsSet;
 import com.nimbusds.jwt.SignedJWT;
 import lombok.extern.slf4j.Slf4j;
 import net.minidev.json.JSONObject;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

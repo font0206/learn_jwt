@@ -1,7 +1,8 @@
-package com.example.spring_boot_api_jwt_ad.service;
+package com.example.spring_boot_api_jwt.service;
 
-import com.example.spring_boot_api_jwt_ad.entity.Token;
-import com.example.spring_boot_api_jwt_ad.repository.TokenRepository;
+import com.example.spring_boot_api_jwt.repository.TokenRepository;
+import com.example.spring_boot_api_jwt.entity.Token;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
